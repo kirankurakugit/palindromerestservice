@@ -7,7 +7,7 @@ Identified palindromes given a range of values.
 - Spring-boot, a Micro-services framework.
 
 
- ## How to import project in your favorite IDE 
+## How to import project in your favorite IDE 
  - Most moderns Java IDEs (Eclipse, Netbeans, IDEA)  comes with build in support for gradle if not please review plugins/add-ons for your IDE.
  - To import project use standard import gradle project functionality.
  
