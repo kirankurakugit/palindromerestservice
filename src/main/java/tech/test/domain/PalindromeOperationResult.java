@@ -1,12 +1,11 @@
-package tech.test.domain;
+package com.test.domain;
 
 import java.util.List;
 
 /**
  * Encapsulate palindrome operation result payload.
  *
- * @author Juan Rada
- */
+ *  */
 public class PalindromeOperationResult
 {
     private List<Integer> palindromes;
