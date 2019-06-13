@@ -11,13 +11,13 @@ RUN adduser --quiet jenkins
 # Set password for the jenkins user (you may want to alter this).
 RUN echo "jenkins:jenkins" | chpasswd
 
-RUN mkdir /home/jenkins/.m2
+RUN wget -q https://services.gradle.org/distributions/gradle-3.3-bin.zip \
+    && unzip gradle-3.3-bin.zip -d /opt \
+    && rm gradle-3.3-bin.zip
 
-ADD settings.xml /home/jenkins/.m2/
+ENV GRADLE_HOME /opt/gradle-3.3
+ENV PATH $PATH:/opt/gradle-3.3/bin
 
-RUN chown -R jenkins:jenkins /home/jenkins/.m2/ 
-
-RUN apt-get install -y maven
 # Standard SSH port
 EXPOSE 22
 
