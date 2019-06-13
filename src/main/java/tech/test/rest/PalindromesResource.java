@@ -11,7 +11,7 @@ import tech.test.services.PalindromeService;
 /**
  * Provides rest operations for palindrom resource.
  *
- * @author Juan Rada
+ * 
  */
 @RestController
 public class PalindromesResource
