@@ -1,4 +1,4 @@
-package tech.test;
+package com.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Spring-boot application configuration class.
  *
- * @author Juan Rada
- *
+ *  *
  */
 @SpringBootApplication
 public class PalindromesApplication
