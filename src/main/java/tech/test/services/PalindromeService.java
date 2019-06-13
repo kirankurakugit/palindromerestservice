@@ -1,4 +1,4 @@
-package tech.test.services;
+package com.test.services;
 
 import com.google.common.base.Preconditions;
 import org.apache.commons.lang3.mutable.MutableInt;
@@ -12,7 +12,7 @@ import java.util.stream.IntStream;
 /**
  * Provide Palindrome function operations. @see <a href=" https://en.wikipedia.org/wiki/Palindrome">Palindrome Wiki definition</a>.
  *
- * @author Juan Rada
+ * 
  */
 @Service
 public class PalindromeService
