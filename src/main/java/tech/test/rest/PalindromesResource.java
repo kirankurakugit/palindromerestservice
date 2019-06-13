@@ -1,4 +1,4 @@
-package tech.test.rest;
+package com.test.rest;
 
 import com.google.common.base.Preconditions;
 import org.springframework.web.bind.annotation.GetMapping;
