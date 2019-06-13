@@ -27,4 +27,9 @@ Project technology (Spring boot) enable to run project without an application se
 After run the project palindromes operations is available at
 
     http://localhost:8080/palindromes/7/1000000
+    
+ ## Jenkinsfile 
+  To Check out the Code from and build the Code with gradle in Jenkins
+  ## Dockerfile
+  Docker file Contains to run the java and gradle
  
