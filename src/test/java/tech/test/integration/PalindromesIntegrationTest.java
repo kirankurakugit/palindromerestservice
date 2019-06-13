@@ -1,4 +1,4 @@
-package tech.test.integration;
+package com.test.integration;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
@@ -17,7 +17,7 @@ import java.io.IOException;
 /**
  * Rest palindromes end point integration test.
  *
- * @author Juan Rada
+ * 
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
